@@ -1,0 +1,144 @@
+header {
+    padding: 1.7rem 1rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
+    background-color: transparent;
+}
+  
+.logo {
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+  
+.logo a {
+    color: blueviolet;
+    text-decoration: none;
+}
+  
+nav a {
+    color: #059e00;
+    text-decoration: none;
+    font-size: 0.97rem;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    padding: 1rem;
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+  
+#click {
+    display: none;
+}
+  
+.login2{
+    background: transparent;
+    border: none;
+    color: blueviolet;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+.login2:hover{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    border-color: blueviolet;
+}
+  
+.signup2{
+    background-color: blueviolet;
+    border: blueviolet;
+    border-radius: 15px;
+    margin-right: 100px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+}
+
+.signup2:hover{
+    border: none;
+    background: transparent;
+    color: blueviolet;
+    font-size: 1.1rem;
+}
+
+.main {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    flex-direction: column;
+}
+
+.search {
+    width: 75%;
+    max-width: 600px;
+    align-items: center;
+    padding: 2px 7px;
+    display: flex;
+    border-radius: 15px;
+    background-color: rgb(211, 211, 211);
+    margin-bottom: 150px;
+}
+
+.mie{
+    background: blueviolet;
+    border-radius: 5px;
+    padding: 7px 14px;
+    border-color: rgb(67, 0, 129);
+    color: rgb(255, 255, 255);
+}
+
+input{
+    padding: 15px 20px;
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.sapi{
+    background: transparent;
+    border: none;
+}
+
+.kambing{
+    border-color: #08f700;
+    background-color: #08f700;
+    border-radius: 6px;
+    margin-right: 7px;
+}
+
+.mie{
+    border-color: blueviolet;
+}
+
+.sapi:hover{
+    filter: invert();
+}
+
+.kambing:hover{
+    background: #ffffff;
+    border-color: rgb(211, 211, 211);
+}
+
+.mie:hover{
+    background: white;
+    color: black;
+    border-color: rgb(211, 211, 211);
+}
+
+.background-vidio{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
